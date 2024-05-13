@@ -1,0 +1,64 @@
+
+* {
+    font-family: Arial;
+    margin: 0;
+  }
+  body {
+   background-image: url(aboutnew.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+  }
+  .container{
+      width: 1140px;
+      height: 100vh;
+      margin: auto;
+  }
+  
+  .container > h1{
+      font-size: 50px;
+      font-weight: bold;
+      color: #fe5f55;
+      text-align: center;
+      margin-top: 10px;
+  }
+  
+  .box{
+      width: 70%;
+      float: right;
+      margin-top: 55px;
+  }
+  
+  .box h1{
+      width: 475px;
+      text-align: left;
+      font-size: 40px;
+      color: #fe5f55;
+  }
+  
+  .box p{
+      width: 475px;
+      text-align: justify;
+       margin-top: 18px;
+       font-size: 22px;
+       padding-right: 40%;
+       color: white;
+  }
+  
+  button{
+      font-size: 18px;
+      margin-top: 25px;
+      background: #fe5f55;
+      color: white;
+      border: none;
+      padding: 9px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+  .picture{
+      float: right;
+      margin-top: 10px;
+      margin-right: 30%;
+      overflow: hidden;
+  }
+  
