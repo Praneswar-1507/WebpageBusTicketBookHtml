@@ -1,6 +1,8 @@
 
+
+
 * {
-    font-family: Arial;
+    font-family: "Poetsen One", sans-serif;
     margin: 0;
   }
   body {
@@ -10,34 +12,40 @@
 
   }
   .container{
-      width: 1140px;
-      height: 100vh;
-      margin: auto;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    
   }
   
-  .container > h1{
+  .container h1{
       font-size: 50px;
       font-weight: bold;
       color: #fe5f55;
-      text-align: center;
+      align-items: center;
+      
       margin-top: 10px;
+      
   }
   
   .box{
       width: 70%;
       float: right;
       margin-top: 55px;
+      color: #ac5d5d;
   }
   
   .box h1{
       width: 475px;
-      text-align: left;
+      text-align: center;
       font-size: 40px;
       color: #fe5f55;
   }
   
   .box p{
-      width: 475px;
+      width: auto;
       text-align: justify;
        margin-top: 18px;
        font-size: 22px;
@@ -55,10 +63,72 @@
       border-radius: 20px;
       cursor: pointer;
   }
-  .picture{
-      float: right;
-      margin-top: 10px;
-      margin-right: 30%;
-      overflow: hidden;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn{
+  margin-top: 2rem;
+  width: 150px;
+  padding: 12px;
+  color: #fff;
+  background: tomato;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgba(212, 48, 48, 0.76);
+  transition: 0.4s;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+.header .logo{
+  font-size: 22px;
+  font-weight: bolder;
+  color: #fff;
+  padding-right: 10px;
+  margin-right: 20rem;
+}
+.header .logo i{
+  color: #fff;
+  padding: 0.5rem;
+}
+.header .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color:black;
+  float: left;
+}
+.header .navbar a:hover{
+  color: #baa6cf;
+}
+.header .btn{
+  background: transparent;
+  color: tomato;
+  border: 1px solid tomato;
+  font-size: 12px;
+  padding: 8px;
+}
+
   
